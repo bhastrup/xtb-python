@@ -105,6 +105,7 @@ if install
       'xtb' / 'test_utils.py',
     ),
     subdir: 'xtb',
+    pure: false,
   )
 
   python.install_sources(
@@ -115,6 +116,7 @@ if install
       'xtb' / 'ase' / 'test_optimize.py',
     ),
     subdir: 'xtb' / 'ase',
+    pure: false,
   )
 
   python.install_sources(
@@ -124,5 +126,6 @@ if install
       'xtb' / 'qcschema' / 'test_qcschema.py',
     ),
     subdir: 'xtb' / 'qcschema',
+    pure: false,
   )
 endif
